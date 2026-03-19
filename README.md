@@ -91,7 +91,7 @@ dentist-app/
 ### 1. Clone & Install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JogiAshok87/Dental-Appointment-Booking.git
 cd dentist-app
 
 # Install backend dependencies
@@ -107,8 +107,8 @@ cd ../frontend && npm install
 # Backend
 cp backend/.env.example backend/.env
 # Edit backend/.env:
-#   MONGODB_URI=mongodb://localhost:27017/dentist-booking
-#   JWT_SECRET=your_secret_key_here
+#   MONGODB_URI=''
+#   JWT_SECRET=''
 #   PORT=5000
 #   FRONTEND_URL=http://localhost:3000
 
