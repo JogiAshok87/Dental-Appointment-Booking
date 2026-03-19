@@ -2,10 +2,10 @@
   "name": "dentist-booking-backend",
   "version": "1.0.0",
   "description": "Dentist Appointment Booking Platform - Backend API",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "seed": "node seed/seed.js"
   },
   "dependencies": {
